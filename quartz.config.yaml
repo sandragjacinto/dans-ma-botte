@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: dans-ma-botte.github.io
+  baseUrl: sandragjacinto.github.io/dans-ma-botte/
   ignorePatterns:
     - private
     - templates
@@ -86,7 +86,7 @@ plugins:
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
-      markdownLinkResolution: shortest
+      markdownLinkResolution: relative
     order: 60
   - source: github:quartz-community/description
     enabled: true
